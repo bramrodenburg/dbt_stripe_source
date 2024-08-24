@@ -32,7 +32,7 @@
     {"name": "recipient", "datatype": dbt.type_string()},
     {"name": "tokenization_method", "datatype": dbt.type_string()},
     {"name": "wallet_type", "datatype": dbt.type_string()},
-    {"name": "issuer": "datatype": dbt.type_string()},
+    {"name": "issuer", "datatype": dbt.type_string()},
 ] %}
 
 {{ return(columns) }}
