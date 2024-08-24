@@ -40,6 +40,7 @@ final as (
         cast(created as {{ dbt.type_timestamp() }}) as created_at,
         customer_id,
         name as card_name,
+        issuer,
         recipient,
         funding,
         source_relation
